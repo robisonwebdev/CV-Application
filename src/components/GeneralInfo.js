@@ -3,6 +3,15 @@ import React, { Component } from 'react';
 class GeneralInfo extends Component {
     constructor(props) {
         super(props);
+
+        this.state = {
+            name: 'John Smith',
+            city: 'Parowan',
+            state: 'UT',
+            zipCode: 84761,
+            phone: '702-758-7789',
+            email: 'resume@gmail.com',
+        }
     }
 
     render() {
