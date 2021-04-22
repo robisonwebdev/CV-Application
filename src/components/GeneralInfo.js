@@ -5,7 +5,7 @@ class GeneralInfo extends Component {
         const { name, city, state, zipCode, phone, email } = this.state;
 
         return (
-            <div>
+            <div id='GeneralInfo'>
                 <h1>{name}</h1>
                 <p>{city}, {state}, {zipCode}</p>
                 <p>{phone}</p>
