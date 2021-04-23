@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import InputGeneralInfo from './InputGeneralInfo';
-import cvData from '../cvData';
 
 class CVForm extends Component {
     constructor(props) {
@@ -31,7 +30,14 @@ class CVForm extends Component {
         return (
             <div id='CVForm'>
                 <form onSubmit={this.handleSubmit}>
-                    <InputGeneralInfo handleChange={this.handleChange} />
+                    <div id='InputGeneralInfo'>
+                        <InputGeneralInfo name='fullname' label='Fullname' handleChange={this.handleChange} />
+                        <InputGeneralInfo name='city' label='City' handleChange={this.handleChange} />
+                        <InputGeneralInfo name='state' label='State' handleChange={this.handleChange} />
+                        <InputGeneralInfo name='zip' label='Zip Code' handleChange={this.handleChange} />
+                        <InputGeneralInfo name='phone' label='Phone Number' handleChange={this.handleChange} />
+                        <InputGeneralInfo name='email' label='Email' handleChange={this.handleChange} />
+                    </div>
                     <button type='submit' value='Submit'>Submit</button>
                 </form>
             </div>
