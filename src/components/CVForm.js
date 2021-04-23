@@ -6,24 +6,33 @@ class CVForm extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {
-            data: cvData,
-        }
+        this.state = {};
 
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
+    }
+
+    handleChange(e) {
+        const target = e.target;
+        const value = target.value;
+        const name = target.name;
+
+        this.setState({
+            [name]: value
+        })
     }
 
     handleSubmit(e) {
         e.preventDefault();
-        console.log('Submit button clicked');
+        console.log(this.state)
     }
 
     render() {
         return (
             <div id='CVForm'>
-                <form>
-                    <InputGeneralInfo />
-                    <button onClick={this.handleSubmit}>Submit</button>
+                <form onSubmit={this.handleSubmit}>
+                    <InputGeneralInfo handleChange={this.handleChange} />
+                    <button type='submit' value='Submit'>Submit</button>
                 </form>
             </div>
         );
