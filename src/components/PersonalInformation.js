@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
 class PersonalInformation extends Component {
+    constructor() {
+        super()
+    }
+
     render() {
         return (
             <div id='personalInfo'>
