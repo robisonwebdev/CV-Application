@@ -8,6 +8,7 @@ class PersonalInformation extends Component {
     render() {
         return (
             <div id='personalInfo'>
+                <h1>Personal Information</h1>
                 <input type='text' id='firstName' placeholder='First name' onChange={(e) => this.props.handleChange(e)} />
                 <input type='text' id='lastName' placeholder='Last name' onChange={(e) => this.props.handleChange(e)} />
                 <input type='text' id='city' placeholder='City' onChange={(e) => this.props.handleChange(e)} />
