@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Employment from './Employment';
 import PersonalInformation from './PersonalInformation';
 
 class Form extends Component {
@@ -31,6 +32,7 @@ class Form extends Component {
             <div>
                 <form onSubmit={this.handleSubmit}>
                     <PersonalInformation handleChange={this.handleChange} />
+                    <Employment />
                     <button type='submit' value='Submit'>Submit</button>
                 </form>
             </div>
