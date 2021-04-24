@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import CVForm from './components/CVForm';
+import Form from './components/Form';
 
 class App extends Component {
   render() {
     return (
-      <CVForm />
+      <Form />
     );
   }
 }
