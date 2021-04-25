@@ -27,7 +27,7 @@ class Employment extends Component {
         return (
             <div id='employment'>
                 <h1>Employment</h1>
-                <EmploymentInformation number={1} />
+                <EmploymentInformation handleChange={this.props.handleChange} number={1} />
                 {this.state.children.map(child => child)}
                 <button type='button' onClick={() => this.handleButton()}>Add</button>
             </div>
