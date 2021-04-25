@@ -7,7 +7,6 @@ class Employment extends Component {
 
         this.state = {
             children: [],
-            number: 2,
         };
 
         this.handleButton = this.handleButton.bind(this);
@@ -15,10 +14,9 @@ class Employment extends Component {
 
     handleButton() {
         this.setState((prevState) => ({
-            number: prevState.number + 1,
             children: [
                 ...this.state.children,
-                <EmploymentInformation number={this.state.number} />
+                <EmploymentInformation />
             ],
         }))
     }
@@ -27,7 +25,7 @@ class Employment extends Component {
         return (
             <div id='employment'>
                 <h1>Employment</h1>
-                <EmploymentInformation handleChange={this.props.handleChange} number={1} />
+                <EmploymentInformation handleChange={this.props.handleChange} />
                 {this.state.children.map(child => child)}
                 <button type='button' onClick={() => this.handleButton()}>Add</button>
             </div>
