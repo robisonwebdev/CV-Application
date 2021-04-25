@@ -6,20 +6,40 @@ class Form extends Component {
     constructor() {
         super()
 
-        this.handleChange = this.handleChange.bind(this);
+        this.handlePersonalInfoChange = this.handlePersonalInfoChange.bind(this);
+        this.handleEmploymentChange = this.handleEmploymentChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
 
-        this.state = {};
+        this.state = {
+            personalInfo: {},
+            employment: {},
+        };
     }
 
-    handleChange(e) {
+    handlePersonalInfoChange(e) {
         const target = e.target;
         const value = target.value;
-        const name = target.id;
+        const name = target.name;
 
-        this.setState({
-            [name]: value
-        })
+        this.setState((prevState) => ({
+            personalInfo: {
+                ...prevState.personalInfo,
+                [name]: value
+            }
+        }))
+    }
+
+    handleEmploymentChange(e) {
+        const target = e.target;
+        const value = target.value;
+        const name = target.name;
+
+        this.setState((prevState) => ({
+            employment: {
+                ...prevState.employment,
+                [name]: value
+            }
+        }))
     }
 
     handleSubmit(e) {
@@ -31,8 +51,8 @@ class Form extends Component {
         return (
             <div>
                 <form onSubmit={this.handleSubmit}>
-                    <PersonalInformation handleChange={this.handleChange} />
-                    <Employment />
+                    <PersonalInformation handleChange={this.handlePersonalInfoChange} />
+                    <Employment handleChange={this.handleEmploymentChange} />
                     <button type='submit' value='Submit'>Submit</button>
                 </form>
             </div>
