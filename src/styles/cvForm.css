@@ -50,7 +50,7 @@ body {
     width: 100%;
 }
 
-#employment, #employmentInformation {
+#employment, #employmentInformation, #education, #educationInformation {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -61,10 +61,10 @@ body {
     width: 100%;
 }
 
-#employmentInformation {
+#employmentInformation, #educationInformation {
     padding: 0;
 }
 
-#employmentInformation input {
+#employmentInformation input, #educationInformation input {
     width: 100%;
 }
