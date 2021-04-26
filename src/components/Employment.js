@@ -27,7 +27,7 @@ class Employment extends Component {
                 <h1>Employment</h1>
                 <EmploymentInformation handleChange={this.props.handleChange} />
                 {this.state.children.map(child => child)}
-                <button type='button' onClick={() => this.handleButton()}>Add</button>
+                {/* <button type='button' onClick={() => this.handleButton()}>Add</button> */}
             </div>
         );
     }
