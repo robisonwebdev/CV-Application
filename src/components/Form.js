@@ -65,7 +65,7 @@ class Form extends Component {
 
     render() {
         return (
-            <div>
+            <div id='cvForm'>
                 <form onSubmit={this.handleSubmit}>
                     <PersonalInformation handleChange={this.handlePersonalInfoChange} />
                     <Employment handleChange={this.handleEmploymentChange} />
