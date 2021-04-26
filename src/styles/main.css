@@ -41,6 +41,7 @@ body {
     background-color: var(--black);
     color: var(--white);
     font-size: 35px;
+    margin-bottom: 45px;
     height: 100px;
     width: 100%;
 }
