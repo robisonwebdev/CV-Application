@@ -4,10 +4,16 @@
     padding: 0;
 }
 
+:root {
+    --black: #393e46 ;
+    --white: #eeeeee;
+    --teal: #00adb5;
+}
+
 body {
-    background-color: rgb(78, 159, 240);
+    background-color: var(--teal);
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 #root {
@@ -32,6 +38,8 @@ body {
     align-items: center;
     gap: 10px;
 
+    background-color: var(--black);
+    color: var(--white);
     font-size: 35px;
     height: 100px;
     width: 100%;
