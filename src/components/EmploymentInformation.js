@@ -10,14 +10,8 @@ class EmploymentInformation extends Component {
             <div id='employmentInformation'>
                 <input type='text' name='position' placeholder='Position' onChange={(e) => this.props.handleChange(e)} />
                 <input type='text' name='company' placeholder='Company' onChange={(e) => this.props.handleChange(e)} />
-                <div>
-                    <label htmlFor='fromDate'>From: </label>
-                    <input type='date' name='fromDate' onChange={(e) => this.props.handleChange(e)} />
-                </div>
-                <div>
-                    <label htmlFor='toDate'>To: </label>
-                    <input type='date' name='toDate' onChange={(e) => this.props.handleChange(e)} />
-                </div>
+                <input type='text' name='fromDate' placeholder='From' onChange={(e) => this.props.handleChange(e)} />
+                <input type='text' name='toDate' placeholder='To' onChange={(e) => this.props.handleChange(e)} />
             </div>
         );
     }
