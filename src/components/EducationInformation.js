@@ -10,10 +10,8 @@ class EducationInformation extends Component {
             <div id='educationInformation'>
                 <input type='text' name='university' placeholder='University Name' onChange={(e) => this.props.handleChange(e)} />
                 <input type='text' name='degree' placeholder='Degree' onChange={(e) => this.props.handleChange(e)} />
-                <div>
-                    <label htmlFor='graduationDate'>Graduation Date: </label>
-                    <input type='date' name='graduationDate' onChange={(e) => this.props.handleChange(e)} />
-                </div>
+                <input type='text' name='attendedFrom' placeholder='From' onChange={(e) => this.props.handleChange(e)} />
+                <input type='text' name='attendedTo' placeholder='To' onChange={(e) => this.props.handleChange(e)} />
             </div>
         );
     }
