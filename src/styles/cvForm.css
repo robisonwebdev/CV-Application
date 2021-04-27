@@ -16,6 +16,10 @@
     width: 50%;
 }
 
+.cvFormHeaders {
+    font-size: 16px;
+}
+
 #personalInfo {
     display: flex;
     flex-direction: column;
