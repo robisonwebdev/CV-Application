@@ -9,7 +9,7 @@ class Education extends Component {
     render() {
         return (
             <div id='education'>
-                <h1>Education</h1>
+                <h1 className='cvFormHeaders'>Education</h1>
                 <EducationInformation handleChange={this.props.handleChange} />
             </div>
         );
