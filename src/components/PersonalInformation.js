@@ -8,7 +8,7 @@ class PersonalInformation extends Component {
     render() {
         return (
             <div id='personalInfo'>
-                <h1>Personal Information</h1>
+                <h1 className='cvFormHeaders'>Personal Information</h1>
                 <input type='text' name='firstName' placeholder='First name' onChange={(e) => this.props.handleChange(e)} />
                 <input type='text' name='lastName' placeholder='Last name' onChange={(e) => this.props.handleChange(e)} />
                 <input type='text' name='city' placeholder='City' onChange={(e) => this.props.handleChange(e)} />
