@@ -24,7 +24,7 @@ class Employment extends Component {
     render() {
         return (
             <div id='employment'>
-                <h1>Employment</h1>
+                <h1 className='cvFormHeaders'>Employment</h1>
                 <EmploymentInformation handleChange={this.props.handleChange} />
                 {this.state.children.map(child => child)}
                 {/* <button type='button' onClick={() => this.handleButton()}>Add</button> */}
