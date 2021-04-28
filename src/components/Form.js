@@ -70,7 +70,7 @@ class Form extends Component {
                     <PersonalInformation handleChange={this.handlePersonalInfoChange} />
                     <Employment handleChange={this.handleEmploymentChange} />
                     <Education handleChange={this.handleEducationChange} />
-                    <button type='submit' id='btnSubmit' value='Submit'>Submit</button>
+                    <div id='submitForm'><button type='submit' id='btnSubmit' value='Submit'>Submit</button></div>
                 </form>
             </div>
         );
