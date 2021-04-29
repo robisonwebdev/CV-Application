@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import Form from './components/Form';
 import './styles/main.css'
 import './styles/cvForm.css';
-import './styles/cvLetter.css';
+import './styles/previewCV.css';
 import CVHeader from './components/CVHeader';
 import CVFooter from './components/CVFooter';
-import CVLetter from './components/CVLetter';
+import PreviewCV from './components/PreviewCV';
 
 class App extends Component {
   constructor(props) {
@@ -46,7 +46,7 @@ class App extends Component {
         <CVHeader />
         <div id='mainContent'>
           <Form handleSubmit={this.handleSubmit} handleChange={this.handleChange} />
-          <CVLetter data={this.state.education} />
+          <PreviewCV data={this.state.education} />
         </div>
         <CVFooter />
       </div>
