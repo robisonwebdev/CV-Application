@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import CVLetter from './CVLetter';
 import Education from './Education';
 import Employment from './Employment';
 import PersonalInformation from './PersonalInformation';
