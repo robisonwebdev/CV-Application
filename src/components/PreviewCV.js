@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-class CVLetter extends Component {
+class PreviewCV extends Component {
     constructor(props) {
         super(props)
     }
 
     render() {
         return (
-            <div>Test</div>
+            <div id='previewCV'>{this.props.data.degree}</div>
         );
     }
 }
 
-export default CVLetter;
+export default PreviewCV;
