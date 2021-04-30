@@ -7,5 +7,23 @@
     background-color: var(--white);
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px var(--black);
+    height: 100%;
     width: 50vw;
+}
+
+#previewHeader {
+    
+    background-color: blueviolet;
+    height: 10%;
+    width: 100%;
+}
+
+#previewBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+
+    height: 90%;
+    width: 100%;
 }
