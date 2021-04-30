@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PreviewHeaderInfo from './PreviewHeaderInfo';
 import PreviewMainInfo from './PreviewMainInfo';
+import PreviewSideInfo from './PreviewSideInfo';
 
 class PreviewCV extends Component {
     constructor(props) {
@@ -15,7 +16,7 @@ class PreviewCV extends Component {
                 </div>
                 <div id='previewBody'>
                     <PreviewMainInfo />
-                    {/* <previewSide /> */}
+                    <PreviewSideInfo />
                 </div>
             </div>
         );
