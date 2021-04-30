@@ -7,7 +7,15 @@ class PreviewCV extends Component {
 
     render() {
         return (
-            <div id='previewCV'>{this.props.data.degree}</div>
+            <div id='previewCV'>
+                <div id='previewHeader'>
+                    <PreviewHeader />
+                </div>
+                <div id='previewBody'>
+                    <PreviewMain />
+                    <previewSide />
+                </div>
+            </div>
         );
     }
 }
