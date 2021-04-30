@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class PreviewHeader extends Component {
+class PreviewHeaderInfo extends Component {
     constructor(props) {
         super(props);
     }
@@ -12,4 +12,4 @@ class PreviewHeader extends Component {
     }
 }
 
-export default PreviewHeader;
+export default PreviewHeaderInfo;
