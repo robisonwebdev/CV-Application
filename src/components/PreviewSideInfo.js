@@ -7,7 +7,7 @@ class PreviewSideInfo extends Component {
 
     render() {
         return (
-            <div>Side Info</div>
+            <div id="sideInfo">Side Info</div>
         );
     }
 }
