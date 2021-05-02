@@ -27,3 +27,13 @@
     height: 90%;
     width: 100%;
 }
+
+#mainInfo {
+    background-color: violet;
+    width: 65%;
+}
+
+#sideInfo {
+    background-color: tomato;
+    width: 35%;
+}
