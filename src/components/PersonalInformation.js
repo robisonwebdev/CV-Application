@@ -11,6 +11,7 @@ class PersonalInformation extends Component {
                 <h1 className='cvFormHeaders'>Personal Information</h1>
                 <input type='text' data-state='personalInfo' name='firstName' placeholder='First name' onChange={(e) => this.props.handleChange(e)} />
                 <input type='text' data-state='personalInfo' name='lastName' placeholder='Last name' onChange={(e) => this.props.handleChange(e)} />
+                <input type='text' data-state='personalInfo' name='title' placeholder='Title' onChange={(e) => this.props.handleChange(e)} />
                 <input type='text' data-state='personalInfo' name='city' placeholder='City' onChange={(e) => this.props.handleChange(e)} />
                 <input type='text' data-state='personalInfo' name='state' placeholder='State' onChange={(e) => this.props.handleChange(e)} />
                 <input type='text' data-state='personalInfo' name='zipCode' placeholder='Zip code' onChange={(e) => this.props.handleChange(e)} />
