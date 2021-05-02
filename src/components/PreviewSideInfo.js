@@ -13,15 +13,15 @@ class PreviewSideInfo extends Component {
                 <h3>Personal Details</h3>
                 <div>
                     <h4>Address</h4>
-                    <p>{`${city}, ${state} ${zipCode}`}</p>
+                    <p>{`${city || 'City'}, ${state || 'State'} ${zipCode || 'Zip'}`}</p>
                 </div>
                 <div>
                     <h4>Phone Number</h4>
-                    <p>{phoneNumber}</p>
+                    <p>{phoneNumber || 'xxx-xxx-xxxx'}</p>
                 </div>
                 <div>
                     <h4>Email</h4>
-                    <p>{email}</p>
+                    <p>{email || 'placeholder@email.com'}</p>
                 </div>
             </div>
         );
