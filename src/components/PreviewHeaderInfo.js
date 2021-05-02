@@ -9,7 +9,7 @@ class PreviewHeaderInfo extends Component {
         const { firstName, lastName } = this.props.data.personalInfo;
         return (
             <div>
-                <h1>{`${firstName} ${lastName}`}</h1>
+                <h1>{`${firstName || ''} ${lastName || ''}`}</h1>
             </div>
         );
     }
