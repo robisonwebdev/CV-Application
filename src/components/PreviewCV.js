@@ -12,7 +12,7 @@ class PreviewCV extends Component {
         return (
             <div id='previewCV'>
                 <div id='previewHeader'>
-                    <PreviewHeaderInfo />
+                    <PreviewHeaderInfo data={this.props.data} />
                 </div>
                 <div id='previewBody'>
                     <PreviewMainInfo />
