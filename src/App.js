@@ -46,7 +46,7 @@ class App extends Component {
         <CVHeader />
         <div id='mainContent'>
           <Form handleSubmit={this.handleSubmit} handleChange={this.handleChange} />
-          <PreviewCV data={this.state.education} />
+          <PreviewCV data={this.state} />
         </div>
         <CVFooter />
       </div>
