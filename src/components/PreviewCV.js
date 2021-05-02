@@ -16,7 +16,7 @@ class PreviewCV extends Component {
                 </div>
                 <div id='previewBody'>
                     <PreviewMainInfo />
-                    <PreviewSideInfo />
+                    <PreviewSideInfo data={this.props.data} />
                 </div>
             </div>
         );
