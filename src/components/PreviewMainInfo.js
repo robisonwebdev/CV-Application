@@ -7,7 +7,7 @@ class PreviewMainInfo extends Component {
 
     render() {
         return (
-            <div>Main Content</div>
+            <div id="mainInfo">Main Content</div>
         );
     }
 }
