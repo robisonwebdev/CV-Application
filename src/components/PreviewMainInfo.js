@@ -9,13 +9,13 @@ class PreviewMainInfo extends Component {
         return (
             <div id="mainInfo">
                 <div>
-                    <h3>Description</h3>
+                    <h3 className='cvSubTitle'>Description</h3>
                 </div>
                 <div>
-                    <h3>Experience</h3>
+                    <h3 className='cvSubTitle'>Experience</h3>
                 </div>
                 <div>
-                    <h3>Education</h3>
+                    <h3 className='cvSubTitle'>Education</h3>
                 </div>
             </div>
         );
