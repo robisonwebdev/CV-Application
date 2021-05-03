@@ -42,7 +42,12 @@
 
 #mainInfo {
     background-color: violet;
+    padding: 10px;
     width: 65%;
+}
+
+#mainInfoItems {
+    width: 100%;
 }
 
 #sideInfo {
