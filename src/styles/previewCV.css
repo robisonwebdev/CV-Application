@@ -50,6 +50,14 @@
     width: 100%;
 }
 
+.previewEmploymentInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
 #sideInfo {
     background-color: tomato;
     padding: 10px;
