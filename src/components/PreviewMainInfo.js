@@ -7,7 +7,17 @@ class PreviewMainInfo extends Component {
 
     render() {
         return (
-            <div id="mainInfo">Main Content</div>
+            <div id="mainInfo">
+                <div>
+                    <h3>Description</h3>
+                </div>
+                <div>
+                    <h3>Experience</h3>
+                </div>
+                <div>
+                    <h3>Education</h3>
+                </div>
+            </div>
         );
     }
 }
