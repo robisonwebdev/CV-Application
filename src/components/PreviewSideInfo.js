@@ -11,6 +11,7 @@ class PreviewSideInfo extends Component {
         return (
             <div id="sideInfo">
                 <h3>Personal Details</h3>
+                <hr></hr>
                 <div>
                     <h4>Address</h4>
                     <p>{`${city || 'City'}, ${state || 'State'} ${zipCode || 'Zip'}`}</p>
