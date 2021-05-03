@@ -19,7 +19,7 @@ class PreviewMainInfo extends Component {
                     <hr></hr>
                     <div className='previewEmploymentInfo'>
                         <div>{`${fromDate} - ${toDate}`}</div>
-                        <div>
+                        <div className='positionCompany'>
                             {position}
                             {company}
                         </div>
