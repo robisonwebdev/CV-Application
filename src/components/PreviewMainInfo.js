@@ -6,6 +6,8 @@ class PreviewMainInfo extends Component {
     }
 
     render() {
+        const { fromDate, toDate, position, company } = this.props.data.employment;
+
         return (
             <div id="mainInfo">
                 <div className='mainInfoItems'>
@@ -15,6 +17,13 @@ class PreviewMainInfo extends Component {
                 <div className='mainInfoItems'>
                     <h3 className='cvSubTitle'>Experience</h3>
                     <hr></hr>
+                    <div>
+                        <div>{`${fromDate} - ${toDate}`}</div>
+                        <div>
+                            {position}
+                            {company}
+                        </div>
+                    </div>
                 </div>
                 <div className='mainInfoItems'>
                     <h3 className='cvSubTitle'>Education</h3>
