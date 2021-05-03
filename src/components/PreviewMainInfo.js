@@ -8,13 +8,13 @@ class PreviewMainInfo extends Component {
     render() {
         return (
             <div id="mainInfo">
-                <div>
+                <div className='mainInfoItems'>
                     <h3 className='cvSubTitle'>Description</h3>
                 </div>
-                <div>
+                <div className='mainInfoItems'>
                     <h3 className='cvSubTitle'>Experience</h3>
                 </div>
-                <div>
+                <div className='mainInfoItems'>
                     <h3 className='cvSubTitle'>Education</h3>
                 </div>
             </div>
