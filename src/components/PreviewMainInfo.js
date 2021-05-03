@@ -17,7 +17,7 @@ class PreviewMainInfo extends Component {
                 <div className='mainInfoItems'>
                     <h3 className='cvSubTitle'>Experience</h3>
                     <hr></hr>
-                    <div>
+                    <div className='previewEmploymentInfo'>
                         <div>{`${fromDate} - ${toDate}`}</div>
                         <div>
                             {position}
