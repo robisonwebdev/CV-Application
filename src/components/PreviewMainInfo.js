@@ -18,10 +18,10 @@ class PreviewMainInfo extends Component {
                     <h3 className='cvSubTitle'>Experience</h3>
                     <hr></hr>
                     <div className='previewEmploymentInfo'>
-                        <div>{`${fromDate} - ${toDate}`}</div>
+                        <div>{`${fromDate || ''} - ${toDate || ''}`}</div>
                         <div className='positionCompany'>
-                            <div>{position}</div>
-                            <div>{`${company}, ${companyCity}`}</div>
+                            <div>{position || ''}</div>
+                            <div>{`${company || ''}, ${companyCity || ''}`}</div>
                         </div>
                     </div>
                 </div>
