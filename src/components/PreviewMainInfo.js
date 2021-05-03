@@ -6,7 +6,7 @@ class PreviewMainInfo extends Component {
     }
 
     render() {
-        const { fromDate, toDate, position, company } = this.props.data.employment;
+        const { fromDate, toDate, position, company, companyCity } = this.props.data.employment;
 
         return (
             <div id="mainInfo">
@@ -20,8 +20,8 @@ class PreviewMainInfo extends Component {
                     <div className='previewEmploymentInfo'>
                         <div>{`${fromDate} - ${toDate}`}</div>
                         <div className='positionCompany'>
-                            {position}
-                            {company}
+                            <div>{position}</div>
+                            <div>{`${company}, ${companyCity}`}</div>
                         </div>
                     </div>
                 </div>
