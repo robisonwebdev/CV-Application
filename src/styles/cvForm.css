@@ -35,6 +35,12 @@
     width: 100%;
 }
 
+#personalInfo textarea {
+    padding: 5px;
+    height: 75px;
+    width: 100%;
+}
+
 #employment, #employmentInformation, #education, #educationInformation, #submitForm {
     display: flex;
     flex-direction: column;
