@@ -17,6 +17,7 @@ class PersonalInformation extends Component {
                 <input type='text' data-state='personalInfo' name='zipCode' placeholder='Zip code' onChange={(e) => this.props.handleChange(e)} />
                 <input type='tel' data-state='personalInfo' name='phoneNumber' placeholder='Phone number' onChange={(e) => this.props.handleChange(e)} />
                 <input type='email' data-state='personalInfo' name='email' placeholder='Email' onChange={(e) => this.props.handleChange(e)} />
+                <textarea data-state='personInfo' name='description' placeholder='Description' onChange={(e) => this.props.handleChange(e)} />
             </div>
         );
     }
