@@ -50,6 +50,12 @@
     width: 100%;
 }
 
+.previewDescription {
+    text-align: start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .previewEmploymentInfo {
     display: flex;
     flex-direction: row;
