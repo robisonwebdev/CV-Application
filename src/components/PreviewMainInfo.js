@@ -15,7 +15,7 @@ class PreviewMainInfo extends Component {
                 <div className='mainInfoItems'>
                     <h3 className='cvSubTitle'>Description</h3>
                     <hr></hr>
-                    <div>{description}</div>
+                    <div className='previewDescription'>{description}</div>
                 </div>
                 <div className='mainInfoItems'>
                     <h3 className='cvSubTitle'>Experience</h3>
