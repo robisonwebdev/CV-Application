@@ -7,6 +7,7 @@ class PreviewMainInfo extends Component {
 
     render() {
         const { fromDate, toDate, position, company, companyCity } = this.props.data.employment;
+        const { attendedFrom, attendedTo, degree, university, universityCity } = this.props.data.education;
         const { description } = this.props.data.personalInfo;
 
         return (
@@ -30,6 +31,10 @@ class PreviewMainInfo extends Component {
                 <div className='mainInfoItems'>
                     <h3 className='cvSubTitle'>Education</h3>
                     <hr></hr>
+                    <div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
             </div>
         );
