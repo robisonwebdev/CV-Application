@@ -35,6 +35,7 @@ class PreviewMainInfo extends Component {
                         <div>{`${attendedFrom} - ${attendedTo}`}</div>
                         <div>
                             <div>{`${university}, ${universityCity}`}</div>
+                            <div>{`Degree: ${degree}`}</div>
                         </div>
                     </div>
                 </div>
