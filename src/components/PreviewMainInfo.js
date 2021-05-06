@@ -32,7 +32,7 @@ class PreviewMainInfo extends Component {
                     <h3 className='cvSubTitle'>Education</h3>
                     <hr></hr>
                     <div>
-                        <div></div>
+                        <div>{`${attendedFrom} - ${attendedTo}`}</div>
                         <div></div>
                     </div>
                 </div>
