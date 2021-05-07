@@ -6,6 +6,8 @@ class PreviewEducation extends Component {
     }
 
     render() {
+        const { attendedFrom, attendedTo, degree, university, universityCity } = this.props.data.education;
+
         return (
             <div className='mainInfoItems'>
                 <h3 className='cvSubTitle'>Education</h3>
