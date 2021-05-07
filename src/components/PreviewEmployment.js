@@ -7,7 +7,7 @@ class PreviewEmployment extends Component {
 
     render() {
         return (
-            <div></div>
+            <div className='mainInfoItems'></div>
         );
     }
 }
