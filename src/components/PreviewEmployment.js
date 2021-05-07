@@ -6,6 +6,8 @@ class PreviewEmployment extends Component {
     }
 
     render() {
+        const { fromDate, toDate, position, company, companyCity } = this.props.data.employment;
+
         return (
             <div className='mainInfoItems'>
                 <h3 className='cvSubTitle'>Employment</h3>
