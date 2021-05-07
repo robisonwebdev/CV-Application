@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Description from './Description';
 
 class PreviewMainInfo extends Component {
     constructor(props) {
@@ -8,15 +9,11 @@ class PreviewMainInfo extends Component {
     render() {
         const { fromDate, toDate, position, company, companyCity } = this.props.data.employment;
         const { attendedFrom, attendedTo, degree, university, universityCity } = this.props.data.education;
-        const { description } = this.props.data.personalInfo;
+
 
         return (
             <div id="mainInfo">
-                <div className='mainInfoItems'>
-                    <h3 className='cvSubTitle'>Description</h3>
-                    <hr></hr>
-                    <div className='previewDescription'>{description}</div>
-                </div>
+                <Description />
                 <div className='mainInfoItems'>
                     <h3 className='cvSubTitle'>Experience</h3>
                     <hr></hr>
