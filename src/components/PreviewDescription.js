@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Description extends Component {
+class PreviewDescription extends Component {
     constructor(props) {
         super(props);
     }
@@ -18,4 +18,4 @@ class Description extends Component {
     }
 }
 
-export default Description;
+export default PreviewDescription;
