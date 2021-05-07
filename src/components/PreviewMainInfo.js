@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Description from './Description';
+import PreviewDescription from './PreviewDescription';
 import PreviewEmployment from './PreviewEmployment';
 
 class PreviewMainInfo extends Component {
@@ -14,7 +14,7 @@ class PreviewMainInfo extends Component {
 
         return (
             <div id="mainInfo">
-                <Description data={this.props.data} />
+                <PreviewDescription data={this.props.data} />
                 <PreviewEmployment data={this.props.data} />
                 <div className='mainInfoItems'>
                     <h3 className='cvSubTitle'>Education</h3>
