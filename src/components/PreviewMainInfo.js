@@ -9,10 +9,6 @@ class PreviewMainInfo extends Component {
     }
 
     render() {
-
-        const { attendedFrom, attendedTo, degree, university, universityCity } = this.props.data.education;
-
-
         return (
             <div id="mainInfo">
                 <PreviewDescription data={this.props.data} />
