@@ -15,7 +15,7 @@ class PreviewMainInfo extends Component {
         return (
             <div id="mainInfo">
                 <Description data={this.props.data} />
-                <PreviewEmployment />
+                <PreviewEmployment data={this.props.data} />
                 <div className='mainInfoItems'>
                     <h3 className='cvSubTitle'>Education</h3>
                     <hr></hr>
