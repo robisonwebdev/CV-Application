@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class MainInfoItems extends Component {
+class Description extends Component {
     constructor(props) {
         super(props);
     }
@@ -12,4 +12,4 @@ class MainInfoItems extends Component {
     }
 }
 
-export default MainInfoItems;
+export default Description;
