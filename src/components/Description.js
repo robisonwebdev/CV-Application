@@ -7,7 +7,11 @@ class Description extends Component {
 
     render() {
         return (
-            <div className='mainInfoItems'></div>
+            <div className='mainInfoItems'>
+                <h3 className='cvSubTitle'>Description</h3>
+                <hr></hr>
+                <div className='previewDescription'>{description}</div>
+            </div>
         );
     }
 }
