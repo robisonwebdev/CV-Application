@@ -13,7 +13,7 @@ class PreviewMainInfo extends Component {
 
         return (
             <div id="mainInfo">
-                <Description />
+                <Description data={this.props.data} />
                 <div className='mainInfoItems'>
                     <h3 className='cvSubTitle'>Experience</h3>
                     <hr></hr>
