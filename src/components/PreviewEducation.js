@@ -13,10 +13,10 @@ class PreviewEducation extends Component {
                 <h3 className='cvSubTitle'>Education</h3>
                 <hr></hr>
                 <div className='education'>
-                    <div>{`${attendedFrom} - ${attendedTo}`}</div>
+                    <div>{`${attendedFrom || ''} - ${attendedTo || ''}`}</div>
                     <div>
-                        <div>{`${university}, ${universityCity}`}</div>
-                        <div>{`Degree: ${degree}`}</div>
+                        <div>{`${university || ''}, ${universityCity || ''}`}</div>
+                        <div>{`Degree: ${degree || ''}`}</div>
                     </div>
                 </div>
             </div>
