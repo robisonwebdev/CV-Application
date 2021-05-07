@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PreviewEmploymentInfo from './PreviewEmploymentInfo';
 
 class PreviewEmployment extends Component {
     constructor(props) {
@@ -12,13 +13,7 @@ class PreviewEmployment extends Component {
             <div className='mainInfoItems'>
                 <h3 className='cvSubTitle'>Employment</h3>
                 <hr></hr>
-                <div className='previewEmploymentInfo'>
-                    <div>{`${fromDate || ''} - ${toDate || ''}`}</div>
-                    <div className='positionCompany'>
-                        <div>{position || ''}</div>
-                        <div>{`${company || ''}, ${companyCity || ''}`}</div>
-                    </div>
-                </div>
+                <PreviewEmploymentInfo data={this.props.data} />
             </div>
         );
     }
