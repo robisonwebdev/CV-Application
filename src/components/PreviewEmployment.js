@@ -8,7 +8,7 @@ class PreviewEmployment extends Component {
     render() {
         return (
             <div className='mainInfoItems'>
-                <h3 className='cvSubTitle'>Experience</h3>
+                <h3 className='cvSubTitle'>Employment</h3>
                 <hr></hr>
                 <div className='previewEmploymentInfo'>
                     <div>{`${fromDate || ''} - ${toDate || ''}`}</div>
