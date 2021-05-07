@@ -6,6 +6,8 @@ class Description extends Component {
     }
 
     render() {
+        const { description } = this.props.data.personalInfo;
+
         return (
             <div className='mainInfoItems'>
                 <h3 className='cvSubTitle'>Description</h3>
