@@ -6,7 +6,13 @@ class PreviewEmploymentInfo extends Component {
     }
 
     render() {
-        <div></div>
+        <div className='previewEmploymentInfo'>
+            <div>{`${fromDate || ''} - ${toDate || ''}`}</div>
+            <div className='positionCompany'>
+                <div>{position || ''}</div>
+                <div>{`${company || ''}, ${companyCity || ''}`}</div>
+            </div>
+        </div>
     }
 }
 
