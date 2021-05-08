@@ -7,7 +7,13 @@ class PreviewEducationInfo extends Component {
 
     render() {
         return (
-            <div></div>
+            <div className='previewEducationInfo'>
+                <div>{`${attendedFrom || ''} - ${attendedTo || ''}`}</div>
+                <div>
+                    <div>{`${university || ''}, ${universityCity || ''}`}</div>
+                    <div>{`Degree: ${degree || ''}`}</div>
+                </div>
+            </div>
         );
     }
 }
