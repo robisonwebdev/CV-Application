@@ -6,6 +6,8 @@ class PreviewSideInfo extends Component {
     }
 
     render() {
+        const { city, email, phoneNumber, state, zipCode } = this.props.data.personalInfo;
+
         return (
             <div>
                 <div>
