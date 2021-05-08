@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class PreviewSideInfo extends Component {
+class PreviewSideContainer extends Component {
     constructor(props) {
         super(props);
     }
@@ -29,4 +29,4 @@ class PreviewSideInfo extends Component {
     }
 }
 
-export default PreviewSideInfo;
+export default PreviewSideContainer;
