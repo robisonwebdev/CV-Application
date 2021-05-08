@@ -75,7 +75,7 @@
     justify-content: flex-start;
 }
 
-.education {
+.previewEducationInfo {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
