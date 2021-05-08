@@ -12,13 +12,6 @@ class PreviewEducation extends Component {
             <div className='mainInfoItems'>
                 <h3 className='cvSubTitle'>Education</h3>
                 <hr></hr>
-                <div className='education'>
-                    <div>{`${attendedFrom || ''} - ${attendedTo || ''}`}</div>
-                    <div>
-                        <div>{`${university || ''}, ${universityCity || ''}`}</div>
-                        <div>{`Degree: ${degree || ''}`}</div>
-                    </div>
-                </div>
             </div>
         );
     }
