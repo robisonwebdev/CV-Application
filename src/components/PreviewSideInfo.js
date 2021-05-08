@@ -10,15 +10,15 @@ class PreviewSideInfo extends Component {
 
         return (
             <div>
-                <div>
+                <div className='previewSideInfo'>
                     <h4>Address</h4>
                     <p>{`${city || 'City'}, ${state || 'State'} ${zipCode || 'Zip'}`}</p>
                 </div>
-                <div>
+                <div className='previewSideInfo'>
                     <h4>Phone Number</h4>
                     <p>{phoneNumber || 'xxx-xxx-xxxx'}</p>
                 </div>
-                <div>
+                <div className='previewSideInfo'>
                     <h4>Email</h4>
                     <p>{email || 'placeholder@email.com'}</p>
                 </div>
