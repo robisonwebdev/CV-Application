@@ -9,7 +9,7 @@ class PreviewSideContainer extends Component {
         const { city, email, phoneNumber, state, zipCode } = this.props.data.personalInfo;
 
         return (
-            <div id="sideInfo">
+            <div id="sideInfoContainer">
                 <h3>Personal Details</h3>
                 <hr></hr>
                 <div>
