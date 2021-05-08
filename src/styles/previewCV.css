@@ -17,7 +17,8 @@
     justify-content: flex-start;
     align-items: center;
 
-    background-color: blueviolet;
+    background-color: #28527a;
+    color: #f9f3f3;
     padding-left: 10px;
     height: 10%;
     width: 100%;
@@ -41,7 +42,7 @@
 }
 
 #mainInfo {
-    background-color: violet;
+    background-color: #f9f3f3;
     padding: 10px;
     width: 65%;
 }
@@ -86,7 +87,7 @@
 }
 
 #sideInfo {
-    background-color: tomato;
+    background-color: #dddddd;
     padding: 10px;
     width: 35%;
 }
