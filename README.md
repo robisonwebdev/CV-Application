@@ -10,3 +10,9 @@ My main objective for the first version of the project was to get familiar with 
     - Employment Information (company, position, date of employment, city, etc)
 - Display form information on a Preview page
 - Basic styling
+
+## Future Features
+- Submit button to create a PDF version of CV Page.
+- Edit button once submitted
+- Add button to enter additional education
+- Add button to enter additional employment
