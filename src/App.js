@@ -56,7 +56,9 @@ import PreviewCV from './components/PreviewCV';
 // }
 
 const App = () => {
-
+  const [personalInfo, setPersonalInfo] = useState({});
+  const [employment, setEmployment] = useState({});
+  const [education, setEducation] = useState({});
 }
 
 export default App;
