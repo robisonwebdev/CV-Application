@@ -3,6 +3,12 @@
 ## Objective
 My main objective for the first version of the project was to get familiar with React. Learn how to break my code into components and passing/updating state to said components.
 
+## Version 2 Objective - 03/06/2022
+- Updating my react code.
+- Organizing folder and components
+- Adding future features
+- Updating styling.
+
 ## Version 1 - 05/10/2021
 - Created form sections that get user input for the following information:
     - General Information (name, email, phone number, etc)
