@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Form from './components/Form';
+import './styles/App.css';
 import './styles/main.css'
 import './styles/cvForm.css';
 import './styles/previewCV.css';
