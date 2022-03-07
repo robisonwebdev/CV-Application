@@ -9,12 +9,19 @@ main {
 }
 
 .page_switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: blueviolet;
     height: 50px;
     width: 100%;
 }
 
 .page_view {
+    display: flex;
+    justify-content: center;
+
     background-color: wheat;
     height: 100%;
     width: 100%;
