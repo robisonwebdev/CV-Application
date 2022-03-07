@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Button from './Button';
+import Form from './Form/Form';
+import Preview from './Preview/Preview';
 import '../../styles/Main/Main.css';
 
 const Main = () => {
@@ -16,11 +18,12 @@ const Main = () => {
 
     return (
         <main>
-            <div className='view_switch'>
+            <div className='page_switch'>
                 <Button handleButton={handleButton} text={buttonText} />
             </div>
-            <section>
-                
+            <section className='page_view'>
+                {showForm ? <Form /> : null}
+                {showPreview ? <Preview /> : null}
             </section>
         </main>
     );
