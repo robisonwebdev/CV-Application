@@ -5,7 +5,7 @@ import '../../styles/Header/Header.css';
 const Header = () => {
     return (
         <header>
-            <ContactPageOutlinedIcon />
+            <ContactPageOutlinedIcon sx={{ fontSize: 50}} />
             <strong>CV Builder</strong>
         </header>
     );
