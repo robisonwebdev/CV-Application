@@ -1,9 +1,13 @@
 import React from 'react';
+import ContactPageOutlinedIcon from '@mui/icons-material/ContactPageOutlined';
 import '../../styles/Header/Header.css';
 
 const Header = () => {
     return (
-        <header>Header</header>
+        <header>
+            <ContactPageOutlinedIcon />
+            <strong>CV Builder</strong>
+        </header>
     );
 };
 
