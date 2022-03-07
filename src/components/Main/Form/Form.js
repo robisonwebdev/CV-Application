@@ -1,9 +1,9 @@
 import React from 'react';
 
-const MainForm = () => {
+const Form = () => {
     return (
-        <section>MainForm</section>
+        <section>Form</section>
     );
 };
 
-export default MainForm;
+export default Form;
