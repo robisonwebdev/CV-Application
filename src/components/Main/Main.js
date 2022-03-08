@@ -13,7 +13,7 @@ const Main = () => {
         setShowForm(!showForm);
         setShowPreview(!showPreview);
         
-        {buttonText === 'Preview' ? setButtonText('Edit') : setButtonText('Preview')}
+        buttonText === 'Preview' ? setButtonText('Edit') : setButtonText('Preview');
     };
 
     return (
