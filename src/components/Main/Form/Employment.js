@@ -1,8 +1,20 @@
 import React from 'react';
+import { useFormContext } from 'react-hook-form';
 
 const Employment = () => {
+    const { register } = useFormContext();
+
     return (
-        <section>Employment</section>
+        <section className='employment'>
+            <strong>Employment</strong>
+            <div>
+                <input {...register('position')} placeholder='Position' />
+                <input {...register('company')} placeholder='Company' />
+                <input {...register('employmentCity')} placeholder='City' />
+                <input {...register('employmentFrom')} placeholder='From' />
+                <input {...register('employmentTo')} placeholder='To' />
+            </div> 
+        </section>
     );
 };
 
