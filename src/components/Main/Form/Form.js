@@ -1,8 +1,11 @@
 import React from 'react';
+import PersonalInformation from './PersonalInformation';
 
 const Form = () => {
     return (
-        <section>Form</section>
+        <form>
+            <PersonalInformation />
+        </form>
     );
 };
 
