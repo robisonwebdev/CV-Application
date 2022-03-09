@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FormProvider, useForm } from 'react-hook-form';
 import Button from './Button';
 import Form from './Form/Form';
 import Preview from './Preview/Preview';
@@ -8,6 +9,7 @@ const Main = () => {
     const [buttonText, setButtonText] = useState('Preview');
     const [showForm, setShowForm] = useState(true);
     const [showPreview, setShowPreview] = useState(false);
+    const methods = useForm();
 
     const handleButton = () => {
         setShowForm(!showForm);
@@ -22,8 +24,10 @@ const Main = () => {
                 <Button handleButton={handleButton} text={buttonText} />
             </div>
             <section className='page_view'>
-                {showForm ? <Form /> : null}
-                {showPreview ? <Preview /> : null}
+                <FormProvider {...methods}>
+                    {showForm ? <Form /> : null}
+                    {showPreview ? <Preview /> : null}
+                </FormProvider>                
             </section>
         </main>
     );
