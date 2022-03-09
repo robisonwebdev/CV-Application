@@ -1,4 +1,5 @@
 import React from 'react';
+import Education from './Education';
 import Employment from './Employment';
 import PersonalInformation from './PersonalInformation';
 
@@ -7,6 +8,7 @@ const Form = () => {
         <form>
             <PersonalInformation />
             <Employment />
+            <Education />
         </form>
     );
 };
