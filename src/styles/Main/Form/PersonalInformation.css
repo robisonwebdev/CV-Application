@@ -2,6 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+
+    height: auto;
+    width: 100%;
+}
+
+.personal_information div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 5px;
 
     height: auto;
