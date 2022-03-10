@@ -1,5 +1,6 @@
 import React from 'react';
 import { useFormContext } from 'react-hook-form';
+import '../../../styles/Main/Form/Employment.css';
 
 const Employment = () => {
     const { register } = useFormContext();
