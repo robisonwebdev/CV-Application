@@ -1,4 +1,5 @@
 import React from 'react';
+import PreviewHeader from './PreviewHeader';
 import { useFormContext } from 'react-hook-form';
 
 const Preview = () => {
@@ -15,22 +16,16 @@ const Preview = () => {
         employmentCity,
         employmentFrom,
         employmentTo,
-        firstName,
-        lastName,
         phoneNumber,
         position,
         state,
-        title,
         university,
         zipCode
     } = watch();
 
     return (
         <section className='preview'>
-            <section className='preview_header'>
-                <strong>{`${firstName} ${lastName}`}</strong>    
-                <p>{title}</p>
-            </section>
+            <PreviewHeader />
             <section className='preview_main'>
                 <section className='preview_main_left'></section>
                 <section className='preview_main_right'></section>
