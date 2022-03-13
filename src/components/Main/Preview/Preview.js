@@ -8,17 +8,12 @@ const Preview = () => {
     const { watch } = useFormContext();
     const {
         city,
-        company,
         degree,
         educationCity,
         educationFrom,
         educationTo,
         email,
-        employmentCity,
-        employmentFrom,
-        employmentTo,
         phoneNumber,
-        position,
         state,
         university,
         zipCode
