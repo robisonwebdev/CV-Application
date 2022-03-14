@@ -4,6 +4,7 @@ import PreviewEducation from './PreviewEducation';
 import PreviewEmployment from './PreviewEmployment';
 import PreviewHeader from './PreviewHeader';
 import { useFormContext } from 'react-hook-form';
+import '../../../styles/Main/Preview/Preview.css';
 
 const Preview = () => {
     const { watch } = useFormContext();
