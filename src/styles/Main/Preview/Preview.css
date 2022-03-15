@@ -24,3 +24,11 @@
     height: auto;
     width: 100%;
 }
+
+.preview_main_right {
+    display: flex;
+    flex-direction: column;
+
+    height: auto;
+    width: 100%;
+}
