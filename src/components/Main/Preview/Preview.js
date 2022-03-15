@@ -4,19 +4,9 @@ import PreviewEducation from './PreviewEducation';
 import PreviewEmployment from './PreviewEmployment';
 import PreviewHeader from './PreviewHeader';
 import PreviewPersonalDetails from './PreviewPersonalDetails';
-import { useFormContext } from 'react-hook-form';
 import '../../../styles/Main/Preview/Preview.css';
 
 const Preview = () => {
-    const { watch } = useFormContext();
-    const {
-        city,
-        email,
-        phoneNumber,
-        state,
-        zipCode
-    } = watch();
-
     return (
         <section className='preview'>
             <PreviewHeader />
