@@ -3,6 +3,7 @@ import PreviewDescription from './PreviewDescription';
 import PreviewEducation from './PreviewEducation';
 import PreviewEmployment from './PreviewEmployment';
 import PreviewHeader from './PreviewHeader';
+import PreviewPersonalDetails from './PreviewPersonalDetails';
 import { useFormContext } from 'react-hook-form';
 import '../../../styles/Main/Preview/Preview.css';
 
@@ -25,7 +26,9 @@ const Preview = () => {
                     <PreviewEmployment />
                     <PreviewEducation /> 
                 </section>
-                <section className='preview_main_right'></section>
+                <section className='preview_main_right'>
+                    <PreviewPersonalDetails />
+                </section>
             </section>
         </section>
     );
