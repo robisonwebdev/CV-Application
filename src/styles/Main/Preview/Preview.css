@@ -1,0 +1,9 @@
+.preview {
+    display: flex;
+    flex-direction: column;
+
+    background-color: aquamarine;
+    margin: 10px;
+    height: auto;
+    width: 100%;
+}
