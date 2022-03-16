@@ -4,6 +4,8 @@
     gap: 8px;
 
     background-color: var(--darkBlue);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     color: var(--white);
     padding: 10px 8px;
     height: auto;
