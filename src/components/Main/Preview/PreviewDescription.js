@@ -8,9 +8,11 @@ const PreviewDescription = () => {
 
     return (
         <section className='preview_description'>
-            <h3>Description</h3>
-            <hr />
-            <p>{description}</p>
+            <div className='description_header'>
+                <h3>Description</h3>
+                <hr />
+            </div>
+            <p className='description'>{description}</p>
         </section>
     );
 };
