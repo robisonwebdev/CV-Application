@@ -14,8 +14,10 @@ const PreviewPersonalDetails = () => {
 
     return (
         <section className='preview_personal_details'>
-            <h3>Personal details</h3>
-            <hr />
+            <div>
+                <h3>Personal details</h3>
+                <hr />
+            </div>
             <div>
                 <h4>Address</h4>
                 <p>{`${displayInformation(city) ? city : 'City'}, ${displayInformation(state) ? state : 'State'} ${displayInformation(zipCode) ? zipCode : 'Zip Code'}`}</p>
