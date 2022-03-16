@@ -14,19 +14,19 @@ const PreviewPersonalDetails = () => {
 
     return (
         <section className='preview_personal_details'>
-            <div>
-                <h3>Personal details</h3>
+            <div className='personal_details'>
+                <h3>Personal Details</h3>
                 <hr />
             </div>
-            <div>
+            <div className='address'>
                 <h4>Address</h4>
                 <p>{`${displayInformation(city) ? city : 'City'}, ${displayInformation(state) ? state : 'State'} ${displayInformation(zipCode) ? zipCode : 'Zip Code'}`}</p>
             </div>
-            <div>
+            <div className='phone_number'>
                 <h4>Phone Number</h4>
                 <p>{`${displayInformation(phoneNumber) ? phoneNumber : 'xxx-xxx-xxxx'}`}</p>
             </div>
-            <div>
+            <div className='email'>
                 <h4>Email</h4>
                 <p>{`${displayInformation(email) ? email : 'yourEmail@email.com'}`}</p>
             </div>
