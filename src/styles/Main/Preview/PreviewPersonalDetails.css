@@ -1,0 +1,10 @@
+.preview_personal_details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    font-size: 2.6vw;
+    padding: 10px 8px;
+    height: auto;
+    width: 100%;
+}
