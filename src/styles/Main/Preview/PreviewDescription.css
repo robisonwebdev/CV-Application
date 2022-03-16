@@ -1,0 +1,9 @@
+.preview_description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    font-size: 2.6vw;
+    height: auto;
+    width: 100%;
+}
