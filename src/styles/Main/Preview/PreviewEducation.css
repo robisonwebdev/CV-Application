@@ -7,3 +7,11 @@
     height: auto;
     width: 100%;
 }
+
+.education_information {
+    display: flex;
+    gap: 10px;
+
+    height: auto;
+    width: 100%;
+}
