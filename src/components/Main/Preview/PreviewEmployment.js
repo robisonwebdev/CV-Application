@@ -14,9 +14,11 @@ const PreviewEmployment = () => {
 
     return (
         <section className='preview_employment'>
-            <h3>Employment</h3>
-            <hr />
-            <div>
+            <div className='employment_header'>
+                <h3>Employment</h3>
+                <hr />
+            </div>
+            <div className='employment_information'>
                 <div>
                     <p>{`${displayInformation(employmentFrom) ? employmentFrom : 'Start Date'} - ${displayInformation(employmentTo) ? employmentTo : 'End Date'}`}</p>
                 </div>
