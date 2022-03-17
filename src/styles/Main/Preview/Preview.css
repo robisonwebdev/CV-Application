@@ -33,6 +33,14 @@
     flex-direction: column;
 
     background-color: var(--grey);
+    border-bottom-right-radius: 5px;
     height: auto;
     width: 40%;
+}
+
+@media only screen and (min-width: 580px) {
+    .preview {
+        height: auto;
+        max-width: 690px;
+    }
 }
