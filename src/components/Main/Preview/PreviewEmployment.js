@@ -24,7 +24,8 @@ const PreviewEmployment = () => {
                 </div>
                 <div>
                     <p>{displayInformation(position) ? position : 'Position'}</p>
-                    <p>{`${displayInformation(company) ? company : 'Company'}, ${displayInformation(employmentCity) ? employmentCity : 'City'}`}</p>
+                    <p>{displayInformation(company) ? company : 'Company'}</p>
+                    <p>{displayInformation(employmentCity) ? employmentCity : 'City'}</p>
                 </div>
             </div>
         </section>
