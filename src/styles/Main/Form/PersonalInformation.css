@@ -25,5 +25,12 @@
 .personal_information input {
     font-size: 1rem;
     padding: 3px 5px;
-    text-align: center;
+}
+
+.personal_information textarea {
+    font-size: 1rem;
+    padding: 3px 5px;
+    height: 150px;
+    width: 266px;
+    max-width: 266px;
 }
