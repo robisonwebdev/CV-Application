@@ -15,3 +15,9 @@
     height: auto;
     width: 100%;
 }
+
+@media only screen and (min-width: 580px) {
+    .preview_education {
+        font-size: 1rem;
+    }
+}
