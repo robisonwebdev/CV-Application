@@ -17,7 +17,7 @@ const PersonalInformation = () => {
                 <input {...register('zipCode')} placeholder='Zip Code' />
                 <input {...register('phoneNumber')} placeholder='Phone Number' />
                 <input {...register('email')} placeholder='Email' />
-                <input {...register('description')} placeholder='Description' />
+                <textarea {...register('description')} placeholder='Description' />
             </div>
         </section>
     );
