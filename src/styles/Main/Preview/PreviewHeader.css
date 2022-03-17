@@ -12,3 +12,9 @@
     height: auto;
     width: 100%;
 }
+
+@media only screen and (min-width: 580px) {
+    .preview_header {
+        font-size: 2rem;
+    }
+}
