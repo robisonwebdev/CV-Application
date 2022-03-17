@@ -14,9 +14,11 @@ const PreviewEducation = () => {
 
     return (
         <section className='preview_education'>
-            <h3>Education</h3>
-            <hr />
-            <div>
+            <div className='education_header'>
+                <h3>Education</h3>
+                <hr />
+            </div>
+            <div className='education_information'>
                 <p>{`${displayInformation(educationFrom) ? educationFrom : 'Start Date'} - ${displayInformation(educationTo) ? educationTo : 'End Date'}`}</p>
                 <div>
                     <p>{`${displayInformation(university) ? university : 'University'}, ${displayInformation(educationCity) ? educationCity : 'City'}`}</p>
