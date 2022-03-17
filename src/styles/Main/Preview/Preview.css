@@ -6,8 +6,9 @@
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px var(--black);
     margin: 10px;
-    height: auto;
+    height: 80%;
     width: 100%;
+    max-width: 580px;
 }
 
 .preview_main {
