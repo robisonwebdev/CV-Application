@@ -5,15 +5,17 @@
 }
 
 :root {
-    --black: #393e46 ;
-    --darkBlue: #28527a;
-    --grey: #dddddd;
+    --black: #393e46;
+    --blueGrey: #DBE2EF;
+    --darkBlue: #112D4E;
+    --eggShell: #F9F7F7;
+    --lightBlack: #303841;
     --offWhite: #f9f3f3;
-    --teal: #00adb5;
-    --white: #eeeeee;
+    --white: #eeeeee;    
 }
 
 body {
+    background-color: var(--eggShell);
     height: 100vh;
     width: 100vw;
 }
