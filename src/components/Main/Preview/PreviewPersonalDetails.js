@@ -1,16 +1,11 @@
 import React from 'react';
 import { useFormContext } from 'react-hook-form';
+import displayInformation from '../displayInformation';
 import '../../../styles/Main/Preview/PreviewPersonalDetails.css';
 
 const PreviewPersonalDetails = () => {
     const { watch } = useFormContext();
     const { city, email, phoneNumber, state, zipCode } = watch();
-
-    const displayInformation = (value) => {
-        if (value === '') return false;
-
-        return true;
-    };
 
     return (
         <section className='preview_personal_details'>
