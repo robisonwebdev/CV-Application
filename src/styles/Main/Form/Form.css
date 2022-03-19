@@ -11,4 +11,5 @@ form {
     padding: 20px 0;
     height: auto;
     width: 100%;
+    max-width: 340px;
 }
