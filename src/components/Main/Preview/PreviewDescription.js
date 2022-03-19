@@ -1,16 +1,11 @@
 import React from 'react';
 import { useFormContext } from 'react-hook-form';
+import displayInformation from '../displayInformation';
 import '../../../styles/Main/Preview/PreviewDescription.css'
 
 const PreviewDescription = () => {
     const { watch } = useFormContext();
     const { description } = watch();
-
-    const displayInformation = (value) => {
-        if (value === '') return false;
-
-        return true;
-    };
 
     return (
         <section className='preview_description'>
