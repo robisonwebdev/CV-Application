@@ -6,13 +6,19 @@ const PreviewDescription = () => {
     const { watch } = useFormContext();
     const { description } = watch();
 
+    const displayInformation = (value) => {
+        if (value === '') return false;
+
+        return true;
+    };
+
     return (
         <section className='preview_description'>
             <div className='description_header'>
                 <h3>Description</h3>
                 <hr />
             </div>
-            <p className='description'>{description}</p>
+            <p className='description'>{displayInformation(description) ? description : 'Professional summary entered here...'}</p>
         </section>
     );
 };
