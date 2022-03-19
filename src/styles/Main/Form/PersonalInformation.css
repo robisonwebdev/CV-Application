@@ -18,6 +18,7 @@
     align-items: center;
     gap: 8px;
 
+    padding: 0 15px;
     height: auto;
     width: 100%;
 }
@@ -25,12 +26,12 @@
 .personal_information input {
     font-size: 1rem;
     padding: 3px 5px;
+    width: 100%;
 }
 
 .personal_information textarea {
     font-size: 1rem;
     padding: 3px 5px;
     height: 150px;
-    width: 266px;
-    max-width: 266px;
+    width: 100%;
 }
