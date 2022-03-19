@@ -7,6 +7,7 @@ form {
     background-color: var(--offWhite);
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px var(--darkBlue);
+    margin-bottom: 30px;
     padding: 20px 0;
     height: auto;
     width: 100%;
