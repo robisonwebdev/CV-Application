@@ -1,7 +1,11 @@
 footer {
     padding: 3px 0;
     text-align: center;
-
+    
     height: auto;
     width: 100%;
+}
+
+footer a {
+    color: black;
 }
