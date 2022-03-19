@@ -1,16 +1,11 @@
 import React from 'react';
 import { useFormContext } from 'react-hook-form';
+import displayInformation from '../displayInformation';
 import '../../../styles/Main/Preview/PreviewHeader.css'
 
 const PreviewHeader = () => {
     const { watch } = useFormContext();
     const { firstName, lastName, title} = watch();
-
-    const displayInformation = (value) => {
-        if (value === '') return false;
-
-        return true;
-    };
 
     return (
         <section className='preview_header'>
