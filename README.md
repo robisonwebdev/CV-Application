@@ -6,7 +6,8 @@ My main objective for the first version of the project was to get familiar with 
 ## Version 2 Objective - 03/06/2022
 - Updating my react code.
 - Organizing folder and components
-- Adding future features
+- Button to switch between form and preview.
+- Mobile view.
 - Updating styling.
 
 ## Version 1 - 05/10/2021
