@@ -1,0 +1,10 @@
+button {
+    background-color: var(--darkBlue);
+    border: 1px solid var(--darkBlue);
+    border-radius: 8px;
+    color: var(--eggShell);
+    cursor: pointer;
+    padding: 5px;
+    height: auto;
+    width: 125px;
+}
