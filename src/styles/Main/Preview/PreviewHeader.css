@@ -7,14 +7,25 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     color: var(--white);
-    font-size: 3.7vw;
     padding: 10px 8px;
     height: auto;
     width: 100%;
 }
 
+.preview_header h1 {
+    font-size: 3.7vw;
+}
+
+.preview_header p {
+    font-size: 3vw;
+}
+
 @media only screen and (min-width: 580px) {
-    .preview_header {
+    .preview_header h1 {
         font-size: 2rem;
+    }
+
+    .preview_header p {
+        font-size: 1.3rem;
     }
 }
